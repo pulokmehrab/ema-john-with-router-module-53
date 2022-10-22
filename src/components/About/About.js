@@ -6,7 +6,7 @@ const About = () => {
     const {user}=useContext(AuthContext);
     return (
         <div>
-            <h2>welcome {user.email}</h2>
+            <h2>{user.email}</h2>
         </div>
     );
 };
